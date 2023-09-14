@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Calendar.DataAccess\Calendar.DataAccess.csproj" />
+    <ProjectReference Include="..\Calendar.Entity\Calendar.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
